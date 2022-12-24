@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React - Multiple Elements</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script>
+        // Creating h1 element
+        const h1 = React.createElement("h1", null, "What is React?");
+
+        // Creating para element
+        const para1 = React.createElement("p", null, "React is a JavaScript Library!");
+
+        // Creating Container Element
+        const container = React.createElement("div", {class: "container"}, [h1, para1]);
+
+        // Selecting root element
+        const root = ReactDOM.createRoot(document.querySelector("#root"));
+
+        // Rendering container inside root element
+        root.render(container);
+    </script>
+</body>
+</html>

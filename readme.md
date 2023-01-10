@@ -8,3 +8,4 @@
 - [02 - Igniting our App](/02-Igniting-app)
 - [03 - Laying the Foundation](/03-Laying-foundation)
 - [04 - Talk is cheap, show me the code](/04-Show-me-code)
+- [05 - Let's get Hooked](/05-Lets-get-hooked)

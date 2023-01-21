@@ -9,3 +9,5 @@
 - [03 - Laying the Foundation](/03-Laying-foundation)
 - [04 - Talk is cheap, show me the code](/04-Show-me-code)
 - [05 - Let's get Hooked](/05-Lets-get-hooked)
+- [06 - Exploring the world](/06-Exploring-the-world/)
+- [07 - Finding the path](/07-Finding-the-path/)

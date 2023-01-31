@@ -1,0 +1,26 @@
+{
+  "name": "10-styling-with-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "clean": "rm -rf .parcel-cache dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.21",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-router-dom": "^6.8.0"
+  },
+  "browserlists": "> 0.5%, last 2 versions, not dead"
+}
